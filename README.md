@@ -2,7 +2,7 @@
 **Where Elevation meet Friends**
 
 ## Instructions
-The user need to fix the main.js file in **3 steps** so that:
+The user need to fix the `main.js` file in **3 steps** so that:
 1. The friends' names appear above their gifs
 2. Chandler and Ross names match their gifs
 3. Rachel gif appear on screan under her name
