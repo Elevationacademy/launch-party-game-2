@@ -1,14 +1,16 @@
 
 const friends = [
-  { name: "Chandler", gif: RossGif },
+  { name: "Chandler", gif: ChandlerGif },
   { name: "Joey", gif: JoeyGif },
-  { name: "Ross", gif: ChandlerGif },
+  { name: "Ross", gif: RossGif },
   { name: "Monica", gif: MonicaGif },
-  { name: "Phoebe", gif: PhoebeGif },
-  { name: "Rachel" }
+  { name: "Phoebe", gif: PhoebeGif }
 ]
 
+const rachel = { name: "Rachel" }
+
+
 for (let friend of friends) {
-  showName(friend)
+  showName(friend.name)
   showGif(friend.gif)
 }
